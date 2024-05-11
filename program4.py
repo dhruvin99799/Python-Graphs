@@ -1,0 +1,10 @@
+import pylab as py
+py.figure(1)
+x1=py.array([1,2,3,4,5])
+y1=py.array([100,50,110,77,23])
+x2=py.array([1,2,3,4,5])
+y2=py.array([55,99,45,36,25])
+py.xlabel('Data')
+py.ylabel('Lines')
+py.plot(x1,y1,x2,y2)
+py.show()
